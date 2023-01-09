@@ -8,6 +8,10 @@ const Footer = () => {
         <div className="footer-container"> 
         <div className="left">
             <div className="github">
+                <FaLinkedin size={20} style={{color: "#fff", marginRight: "2rem"}}/> 
+                <p> Michael Blanco </p>
+            </div>
+            <div className="github">
                 <FaGithubAlt size={20} style={{color: "#fff", marginRight: "2rem"}}/> 
                 <p> migueBlanc</p>
             </div>
@@ -18,6 +22,7 @@ const Footer = () => {
                     guesswhoblanco@gmail.com
                  </h4>
             </div>
+            
 
         </div>
         <div className="right">

@@ -1,0 +1,50 @@
+.hero-img {
+    width: 100%;
+    background: rgba(0, 0 , 0, 0.5);
+    height: 70vh;
+    position: relative;
+}
+
+.hero-img {
+    background-image: url("/src/assets/img/desk-setup.jpg");
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-blend-mode: multiply;
+     background-color: rgba(0, 0, 0, 0.5);
+     opacity: 0.85;
+}
+
+.heading {
+
+    width: 100;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img h1 {
+    font-size: 2.5rem;
+  
+    
+}
+
+.hero-img p {
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+@media screen and (max-width: 640px) {
+    .hero-img h1{
+        font-size: 2rem;
+
+    }
+    .hero-img p {
+        font-size: 1.2rem;
+        text-align: center;
+    
+    }
+    
+}
