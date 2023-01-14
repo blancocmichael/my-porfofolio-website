@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="ABOUT ME" text="I am a software developer, and I'm currently studying Computer Science student at College of Charleston"/>
+      <HeroImg2 heading="ABOUT ME" text="I am a computer science student at the College of Charleston with a passion for software development, constantly seeking to improve my skills and deliver innovative solutions."/>
       <Footer/>
     
     </div>
